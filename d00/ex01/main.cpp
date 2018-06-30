@@ -6,25 +6,11 @@
 /*   By: asyed <asyed@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/06/28 21:53:17 by asyed             #+#    #+#             */
-/*   Updated: 2018/06/30 09:19:27 by asyed            ###   ########.fr       */
+/*   Updated: 2018/06/30 13:25:18 by asyed            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "phonebook.hpp"
-
-bool	isnumber(char const *str)
-{
-	int	i;
-
-	i = 0;
-	while (str[i])
-	{
-		if (!isdigit(str[i]))
-			return (false);
-		i++;
-	}
-	return (true);
-}
 
 bool	command_switch(Phonebook *test)
 {
